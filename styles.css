@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    
+    --paragraph: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray:  hsl(0, 0%, 95%);
+    --font-size: 15px;
+}
+
+
+body{
+    background-color: var(--very-light-gray);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: var(--font-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#card{
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    margin: 0 5rem;
+    padding: 
+    
+}
+
+#card .sedans{
+    background-color: var(--Bright-orange);
+    height: 400px;
+    padding: 2.5rem;
+}
+
+.sedans .title{
+    color: var(--very-light-gray);
+    text-transform: uppercase;
+    margin: 1.2rem 0rem;
+    font-weight: 700;
+}
+
+.sedans p{
+    color: var(--paragraph);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 4rem;
+}
+
+.sedans .btn{
+    background-color: var(--very-light-gray);
+    color: var(--Bright-orange);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 150px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.sedans .btn:hover{
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+#card .jeeps{
+    background-color: var(--Dark-cyan);
+    height: 400px;
+    padding: 2.5rem;
+}
+
+.jeeps .title{
+    color: var(--very-light-gray);
+    text-transform: uppercase;
+    margin: 1.2rem 0rem;
+    font-weight: 700;
+}
+
+.jeeps p{
+    color: var(--paragraph);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 4rem;
+}
+
+.jeeps .btn{
+    background-color: var(--very-light-gray);
+    color: var(--Bright-orange);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 150px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.jeeps .btn:hover{
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+
+#card .luxury{
+    background-color: var(--Very-dark-cyan);
+    height: 400px;
+    padding: 2.5rem;
+}
+
+.luxury .title{
+    color: var(--very-light-gray);
+    text-transform: uppercase;
+    margin: 1.2rem 0rem;
+    font-weight: 700;
+}
+
+.luxury p{
+    color: var(--paragraph);
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 4rem;
+}
+
+.luxury .btn{
+    background-color: var(--very-light-gray);
+    color: var(--Bright-orange);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 150px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.luxury .btn:hover{
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+}
