@@ -11,9 +11,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-
+![Screenshot from 2023-08-31 15-15-35](https://github.com/Meetkamal256/3-column-preview-card-component-frontend-mentor-challenge/assets/104779844/81f34677-2397-4c61-882d-ea42073cadad)
 
 ### Links
 
